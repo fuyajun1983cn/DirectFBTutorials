@@ -14,7 +14,7 @@ configure_file(
    )
 include_directories("${PROJECT_BINARY_DIR}")
 
-find_package(DirectFB)
+find_package(DFB)
 if (NOT DFB_FOUND)
    message(FATAL_ERROR "failed to find directfb")
    return()
