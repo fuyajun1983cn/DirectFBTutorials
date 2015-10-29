@@ -1,0 +1,2 @@
+#define IMGDIR "@IMG_DIR@" 
+#define FONTDIR "@FONT_DIR@"
